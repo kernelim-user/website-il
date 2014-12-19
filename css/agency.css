@@ -267,11 +267,7 @@ header {
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header .intro-text {
@@ -659,6 +655,10 @@ section#contact {
 }
 
 section#contact .section-heading {
+    color: #fff;
+}
+
+section#contact .section-subheading {
     color: #fff;
 }
 
